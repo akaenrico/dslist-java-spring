@@ -1,0 +1,15 @@
+meta {
+  name: Games by List
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{url}}/lists/:id/games
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 1
+}
